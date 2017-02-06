@@ -1,6 +1,6 @@
 galaxy_info:
-  author: allen
-  description: allen chou from china cd
+  author: allen chou
+  description: common role for fresh centos6,7 server configurationi:enable ntp,set timezone to UTC,install zabbix client,disable selinux and firewalld
   company: your company (optional)
 
   # If the issue tracker for your role is not on github, uncomment the

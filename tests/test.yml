@@ -4,4 +4,4 @@
   vars:
     - ZABBIX_SERVER: 127.0.0.1
   roles: 
-    - role: common
+    - role: ansible-role-common

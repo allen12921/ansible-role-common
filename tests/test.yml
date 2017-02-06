@@ -2,6 +2,6 @@
 - hosts: localhost
   gather_facts: yes
   vars:
-    - ZABBIX_SERVER: 192.168.20.25
+    - ZABBIX_SERVER: 127.0.0.1
   roles: 
     - role: common

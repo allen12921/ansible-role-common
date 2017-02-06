@@ -1,2 +1,5 @@
 ---
-# handlers file for common
+- name: restart zabbix
+  service: name=zabbix-agent state=restarted enabled=yes
+- name: restart ntp
+  service: name=ntpd state=restarted enabled=yes

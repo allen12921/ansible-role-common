@@ -1,5 +1,7 @@
 ---
 - hosts: localhost
-  remote_user: root
-  roles:
-    - common
+  gather_facts: yes
+  vars:
+    - ZABBIX_SERVER: 192.168.20.25
+  roles: 
+    - role: common
